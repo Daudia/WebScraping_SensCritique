@@ -16,8 +16,15 @@ album_titles = soup.find_all('a', {
              'ProductListItem__StyledProductTitle-sc-ico7lo-3 ivaIVy'},
                              href=True)
 
+#href = album_titles[0]['href']
+href = []
+for i in range (len(album_titles)):
+    href.append("https://www.senscritique.com"+album_titles[i]['href'])
+
 # Extract the text of the album titles and store them in a list
-titles_list = [title.text for title in album_titles]
+#titles_list = [title.text for title in album_titles]
 
 # Print the list of album titles
-print(titles_list)
+#print(titles_list[0])
+
+print(href)
