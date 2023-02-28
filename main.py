@@ -73,10 +73,10 @@ for i in range(len(href)):
     favorite_number = soup.find_all('p', {'class': 'Text__SCText-sc-kgt5u3-0 Stats__Text-sc-l0a962-2 hrLruZ FlIXF'})
     favorite_number_list.append(favorite_number[0].text)
 
-# Création d'une connexion à la base de données
+# Connect to database
 conn = sqlite3.connect('album_top_100.db')
 
-# Création d'une table dans la base de données
+# Table creation in the database
 conn.execute('''
     CREATE TABLE album_top_100
     (ranking INTEGER PRIMARY KEY,
@@ -89,7 +89,7 @@ conn.execute('''
     favorite_number INTEGER)
 ''')
 
-# Insertion des données dans la table
+# Data insertion
 for i in range(len(title_list)):
     conn.execute(
         'INSERT INTO album_top_100 (ranking, title, publication_year, artist, global_rating, rating_number, '
@@ -99,8 +99,8 @@ for i in range(len(title_list)):
             number_of_rating_list[i],
             registered_number_list[i], favorite_number_list[i]))
 
-# Validation des changements dans la base de données
+# Committing the database changes
 conn.commit()
 
-# Fermeture de la connexion à la base de données
+# Ending database connection
 conn.close()
