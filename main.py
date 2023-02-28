@@ -1,8 +1,10 @@
+import csv
 import time
 import requests
 from bs4 import BeautifulSoup
 import sqlite3
 from selenium import webdriver
+
 
 # Script for Selenium to automatically scroll to the bottom of the page to fully load it
 driver = webdriver.Chrome()
@@ -85,7 +87,7 @@ conn.execute('''
     favorite_number INTEGER)
 ''')
 
-# Data insertion
+# Data insertion in the table
 for i in range(len(href)):
     conn.execute(
         'INSERT INTO album_top_100 (ranking, title, publication_year, artist, global_rating, rating_number, '
