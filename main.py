@@ -5,14 +5,14 @@ import sqlite3
 from selenium import webdriver
 
 # Script for Selenium to automatically scroll to the bottom of the page to fully load it
-driver = webdriver.Chrome(executable_path=r"C:\Users\mathe\Downloads\chromedriver.exe")
+driver = webdriver.Chrome()
 driver.get('https://www.senscritique.com/musique/tops/top100-des-top10')
 driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
 
 # Wait for the second half of the page to load
 time.sleep(10)
 
-# Parse the HTML content using BeautifulSoup
+# Parse the HTML content using BeautifulSo#up
 soup = BeautifulSoup(driver.page_source, 'html.parser')
 
 driver.quit()
@@ -34,17 +34,13 @@ publication_year_list = []
 artist_list = []
 number_of_rating_list = []
 global_rating_list = []
-label_list = []
 registered_number_list = []
 favorite_number_list = []
 
 for i in range(len(href)):
-    print(len(href), i)
-    url = href[i]
+    html = requests.get(href[i])
 
-    response = requests.get(url)
-
-    soup = BeautifulSoup(response.content, 'html.parser')
+    soup = BeautifulSoup(html.content, 'html.parser')
 
     # Get the album title
     album_title = soup.find_all('h1')
@@ -59,7 +55,7 @@ for i in range(len(href)):
     artist = soup.find_all('span', href=True)
     artist_list.append(artist[0].text)
 
-    # Get the number of ratings and the number of time the album was added to registered
+    # Get the number of ratings and the number of time the album was added to a user registered ones
     number_of_rating_and_registered = soup.find_all('p', {
         'class': 'Text__SCText-sc-kgt5u3-0 Stats__Text-sc-l0a962-2 hrLruZ IwdGM'})
     number_of_rating_list.append(number_of_rating_and_registered[0].text)
@@ -69,7 +65,7 @@ for i in range(len(href)):
     global_rating = soup.find_all('div', {'class': 'Rating__GlobalRating-sc-1rkvzid-5 eCIKNi'})
     global_rating_list.append(global_rating[0].text)
 
-    # Get the number of time the album was added to favorites
+    # Get the number of time the album was added to a user favorites
     favorite_number = soup.find_all('p', {'class': 'Text__SCText-sc-kgt5u3-0 Stats__Text-sc-l0a962-2 hrLruZ FlIXF'})
     favorite_number_list.append(favorite_number[0].text)
 
@@ -80,9 +76,9 @@ conn = sqlite3.connect('album_top_100.db')
 conn.execute('''
     CREATE TABLE album_top_100
     (ranking INTEGER PRIMARY KEY,
-    title TEXT,
+    title VARCHAR(100),
     publication_year INTEGER,
-    artist TEXT,
+    artist VARCHAR(100),
     global_rating FLOAT,
     rating_number INTEGER,
     registered_number INTEGER,
@@ -90,7 +86,7 @@ conn.execute('''
 ''')
 
 # Data insertion
-for i in range(len(title_list)):
+for i in range(len(href)):
     conn.execute(
         'INSERT INTO album_top_100 (ranking, title, publication_year, artist, global_rating, rating_number, '
         'registered_number, favorite_number) VALUES (?, ?, ?, ?, ?, ?, ?, ?)',
