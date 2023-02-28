@@ -1,0 +1,101 @@
+ranking,title,publication_year,artist,global_rating,title,rating_number,registered_number,favorite_number
+1,The Dark Side of the Moon,1973,Pink Floyd,8.3,49.3K,5.8K,2.4K
+2,Wish You Were Here,1975,Pink Floyd,8.5,26.2K,3K,2K
+3,OK Computer,1997,Radiohead,8.1,21.8K,2.1K,1.5K
+4,Discovery,2001,Daft Punk,7.8,31K,2K,1.5K
+5,Nevermind,1991,Nirvana,7.8,54.7K,5.2K,1.6K
+6,The Wall,1979,Pink Floyd,7.9,30.2K,2.8K,1.3K
+7,The Rise and Fall of Ziggy Stardust and the Spiders From Mars,1972,David Bowie,8.4,10.5K,1.2K,1.3K
+8,The Doors,1967,The Doors,8.3,29.3K,3.7K,1.4K
+9,Abbey Road,1969,The Beatles,8.1,23.6K,3K,942
+10,L’École du micro d’argent,1997,IAM,8.0,21.5K,1.9K,1.3K
+11,[Led Zeppelin IV],1971,Led Zeppelin,8.3,15.9K,2.1K,974
+12,Sgt. Pepper’s Lonely Hearts Club Band,1967,The Beatles,8.1,15.7K,1.8K,922
+13,Rage Against the Machine,1992,Rage Against the Machine,7.9,18.4K,1.7K,1.1K
+14,Thriller,1982,Michael Jackson,7.8,25.1K,2.6K,813
+15,Origin of Symmetry,2001,Muse,7.3,14.8K,1.3K,794
+16,London Calling (Remastered),1979,The Clash,7.9,17.2K,1.9K,789
+17,The Velvet Underground & Nico,1967,The Velvet Underground,8.0,16.4K,2.1K,958
+18,Unknown Pleasures,1979,Joy Division,8.0,8.8K,1.2K,868
+19,The Beatles,1968,The Beatles,8.1,10.2K,843,675
+20,In the Court of the Crimson King,1969,King Crimson,8.4,8.5K,1.5K,1.1K
+21,Kid A,2000,Radiohead,7.9,8.6K,780,732
+22,Histoire de Melody Nelson,1971,Serge Gainsbourg,8.2,8.6K,846,850
+23,Demon Days,2005,Gorillaz,7.5,25.2K,2.2K,917
+24,Led Zeppelin,1969,Led Zeppelin,8.2,11.2K,916,802
+25,Mezzanine,1998,Massive Attack,8.0,10.4K,923,973
+26,Harvest,1972,Neil Young,8.2,8.7K,908,832
+27,Random Access Memories,2013,Daft Punk,6.7,42K,3.1K,1.1K
+28,Kind of Blue,1959,Miles Davis,8.5,8.5K,1.3K,837
+29,My Beautiful Dark Twisted Fantasy,2010,Kanye West,7.7,6.8K,666,730
+30,In Rainbows,2007,Radiohead,7.8,6.5K,628,656
+31,An Awesome Wave,2012,alt-J,7.5,8.6K,774,1.1K
+32,The Eminem Show,2002,Eminem,7.6,12.3K,724,652
+33,Animals,1977,Pink Floyd,8.0,8.9K,842,797
+34,MTV Unplugged in New York (Live),1994,Nirvana,8.1,9.9K,527,789
+35,Master of Puppets,1986,Metallica,7.6,8K,625,523
+36,Funeral,2004,Arcade Fire,7.8,6.4K,955,667
+37,Illmatic,1994,Nas,8.2,7.3K,983,761
+38,Toxicity,2001,System of a Down,7.3,11.4K,622,693
+39,2001,1999,Dr. Dre,8.0,7.8K,715,607
+40,Enter the Wu‐Tang (36 Chambers),1993,Wu‐Tang Clan,8.2,7.3K,1.1K,719
+41,The Marshall Mathers LP,2000,Eminem,7.9,8.1K,697,567
+42,Alive 2007 (Live),2007,Daft Punk,8.1,6.9K,391,623
+43,Homework,1997,Daft Punk,7.4,16.3K,1.3K,612
+44,"Whatever People Say I Am, That’s What I’m Not",2006,Arctic Monkeys,7.5,8K,694,594
+45,Appetite for Destruction,1987,Guns N’ Roses,7.2,6.4K,579,479
+46,Grace,1994,Jeff Buckley,7.7,5.8K,614,559
+47,Metallica,1991,Metallica,7.3,7.5K,525,452
+48,Pet Sounds,1966,The Beach Boys,8.0,5.1K,704,418
+49,Mauvais Œil,2000,Lunatic,8.0,4.9K,608,485
+50,Meteora,2003,Linkin Park,6.6,7.7K,389,446
+51,Songs for the Deaf,2002,Queens of the Stone Age,7.8,5.3K,759,537
+52,Revolver,1966,The Beatles,8.1,7.3K,653,519
+53,Born to Die,2012,Lana Del Rey,6.7,10.2K,566,701
+54,A Night at the Opera,1975,Queen,7.9,4.5K,565,435
+55,"good kid, m.A.A.d city",2012,Kendrick Lamar,8.1,6.4K,696,823
+56,Is This It,2001,The Strokes,7.5,6.7K,699,460
+57,Des visages des figures,2001,Noir Désir,7.6,7.3K,620,546
+58,The Hypnoflip Invasion,2011,Stupeflip,7.5,7.6K,652,861
+59,Absolution,2003,Muse,7.0,9.8K,494,462
+60,The Downward Spiral,1994,Nine Inch Nails,7.7,3K,610,357
+61,Back in Black,1980,AC/DC,7.5,9.1K,609,486
+62,The Queen Is Dead,1986,The Smiths,8.0,4.3K,715,460
+63,Doolittle,1989,Pixies,8.0,4.7K,710,503
+64,Meddle,1971,Pink Floyd,8.0,6K,622,614
+65,Atom Heart Mother,1970,Pink Floyd,7.8,7.3K,670,591
+66,Loveless,1991,My Bloody Valentine,7.8,3K,758,399
+67,Crime of the Century,1974,Supertramp,7.9,4.1K,670,536
+68,The Golden Age,2013,Woodkid,6.9,8.8K,641,734
+69,Californication,1999,Red Hot Chili Peppers,7.1,12.7K,616,475
+70,Modal Soul,2005,Nujabes,8.0,3.9K,792,697
+71,Lift Your Skinny Fists Like Antennas to Heaven!,2000,Godspeed You! Black Emperor,8.1,3.2K,928,437
+72,Mutter,2001,Rammstein,7.3,5K,433,405
+73,Disintegration,1989,The Cure,8.1,3.3K,585,431
+74,Electric Ladyland,1968,The Jimi Hendrix Experience,8.2,5.1K,755,454
+75,Hybrid Theory,2000,Linkin Park,6.6,6.8K,382,380
+76,In Utero,1993,Nirvana,7.6,8.6K,601,450
+77,Bad,1987,Michael Jackson,7.3,7K,413,338
+78,Led Zeppelin II,1969,Led Zeppelin,8.0,7.1K,613,461
+79,Hunky Dory,1971,David Bowie,8.1,5.5K,672,584
+80,Blood Sugar Sex Magik,1991,Red Hot Chili Peppers,7.4,5.5K,487,390
+81,Homogenic,1997,Björk,7.7,5.4K,656,498
+82,Dummy,1994,Portishead,8.0,7.2K,729,692
+83,Le Chant des sirènes,2011,Orelsan,6.5,12.2K,499,629
+84,To Pimp a Butterfly,2015,Kendrick Lamar,7.9,6.7K,802,874
+85,The Infamous,1995,Mobb Deep,8.3,4.5K,766,519
+86,Racine carrée,2013,Stromae,6.3,21.5K,2K,618
+87,Exile on Main St.,1972,The Rolling Stones,7.8,3.2K,541,260
+88,Highway to Hell,1979,AC/DC,7.5,8.3K,573,414
+89,Violator,1990,Depeche Mode,7.8,3.1K,499,332
+90,(What’s the Story) Morning Glory?,1995,Oasis,7.3,4.9K,400,307
+91,Temps mort,2002,Booba,7.5,4.6K,424,414
+92,L.A. Woman,1971,The Doors,8.0,6.9K,589,476
+93,✝,2007,Justice,7.1,10.5K,576,515
+94,The Fragile,1999,Nine Inch Nails,7.8,2K,476,278
+95,666.667 Club,1996,Noir Désir,7.6,6.1K,563,391
+96,What’s Going On,1971,Marvin Gaye,8.1,3.8K,668,328
+97,Pornography,1982,The Cure,7.9,3.4K,625,346
+98,Closer,1980,Joy Division,7.9,4.3K,718,378
+99,Blonde,2016,Frank Ocean,7.4,3.5K,543,456
+100,Ride the Lightning,1984,Metallica,7.8,4.8K,446,394
