@@ -64,8 +64,12 @@ To gather data, we used **web-scraping** method on the _["Your 100 favorite albu
 
 # 5. Data Storage
 
-For the storage, we used a simple SQLite3 database.
-Here is a screen of the obtained database displayed by DBeaver.
+In order to store the data collected through web scraping, we first exported the data in CSV format in order to verify the correct collection of data and the architecture of the generated dataset.
+
+The data was then stored in a SQlite database which is a relational database. 
+We chose to use this data management system rather than another one like MySQL because it requires less resources. It is not necessary for the moment to operate this database online, a local processing is enough, and the security that it is possible to have with MySQL like the management of users and permissions is not necessary for the project.
+So, for its simplicity and efficiency, SQLite is more relevant for this project.
+Here is a screenshot of the created database read by DBeaver :
 
 <p align="center">
   <img src="assets/top100_database.png"  alt="DBeaver_screenshot"/>
