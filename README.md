@@ -1,6 +1,6 @@
 # WebScraping_SensCritique
 
-Web Scraping data collection of the albums of _["Your 100 favorite albums" ranking](https://www.senscritique.com/livres/tops/top100-des-top10)_ on [SensCritique](https://www.senscritique.com/), and putting in relation with the opinions and criticisms of the Internet users.
+Web Scraping data collection of the albums of _["Your 100 favorite albums" ranking](https://www.senscritique.com/musique/tops/top100-des-top10)_ on [SensCritique](https://www.senscritique.com/), and putting in relation with the opinions and criticisms of the Internet users.
 
 <p align="center">
   <img src="https://image.jimcdn.com/app/cms/image/transf/dimension=555x10000:format=jpg/path/s63ccf77ce0e97436/image/ibc519716a5a90364/version/1517731088/image.jpg"  alt="SensCritique_Logo"/>
@@ -49,9 +49,9 @@ To do so, here are the elements we are collecting :
 
 # 4. Data Collection
 
-To gather data, we used **web-scraping** method on the _["Your 100 favorite albums" ranking](https://www.senscritique.com/livres/tops/top100-des-top10)_ page, and in each one of the SensCritique album page, where the Internet users opinions can be found.
+To gather data, we used **web-scraping** method on the _["Your 100 favorite albums" ranking](https://www.senscritique.com/musique/tops/top100-des-top10)_ page, and in each one of the SensCritique album page, where the Internet users opinions can be found.
 
-1. ["Your 100 favorites albums" ranking](https://www.senscritique.com/livres/tops/top100-des-top10) on SensCritique page :
+1. ["Your 100 favorites albums" ranking](https://www.senscritique.com/musique/tops/top100-des-top10) on SensCritique page :
 
 <p align="center">
   <img src="assets/top100_album_senscritique.png"  alt="Top100"/>
