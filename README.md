@@ -20,7 +20,7 @@ We decided to do Web Scraping because all the data we needed is already on the I
 
 We wanted to focus on the opinions and criticisms of a single country for our experiment in order to reduce cultural bias, as each culture has its own sensitivities, and the appreciation of works could vary according to the country, which is not what we are trying to measure. 
 
-We did not choose an English-speaking review site because it would be impossible to reduce this potential bias, English being the reference language on the Internet. We therefore naturally turned to the most popular French-language review site: Sens Critique (https://www.senscritique.com/). A French-speaking site does not cancel out the cultural bias because many countries speak French, but it is less than the number of countries that speak English.
+We did not choose an English-speaking review site because it would be impossible to reduce this potential bias, English being the reference language on the Internet. We therefore naturally turned to the most popular French-language review site : [SensCritique](https://www.senscritique.com/) (www.senscritique.com). A French-speaking site does not cancel out the cultural bias because many countries speak French, but it is less than the number of countries that speak English.
 
 Senscritique is a site where users can rate and write reviews of movies, series, comics, music, books and video games. There are about 2 million unique users per month.
 
