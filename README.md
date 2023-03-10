@@ -6,6 +6,8 @@ Web Scraping data collection of the albums of _["Your 100 favorite albums" ranki
   <img src="https://image.jimcdn.com/app/cms/image/transf/dimension=555x10000:format=jpg/path/s63ccf77ce0e97436/image/ibc519716a5a90364/version/1517731088/image.jpg"  alt="SensCritique_Logo"/>
 </p>
 
+*A Notebook explaining all the code used for this project is available in the repository*
+
 # 1. Problematization
 
 Our experiment aims to answer the following question: does the popularity of a cultural object correlate with its perceived quality? 
@@ -68,7 +70,8 @@ In order to store the data collected through web scraping, we first exported the
 
 The data was then stored in a SQlite database which is a relational database. 
 We chose to use this data management system rather than another one like MySQL because it requires less resources. It is not necessary for the moment to operate this database online, a local processing is enough, and the security that it is possible to have with MySQL like the management of users and permissions is not necessary for the project.
-So, for its simplicity and efficiency, SQLite is more relevant for this project.
+So, for its simplicity and efficiency, SQLite is more relevant for this project.  
+
 Here is a screenshot of the created database read by DBeaver :
 
 <p align="center">
